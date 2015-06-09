@@ -1,0 +1,58 @@
+body{ 	background:#FFFFFF; color:#333333; font-family:arial,sans-serif;  }
+
+body, header{	margin:0;padding:0;	}
+header{ 	}
+.header_wrapper{ 	width:100%; border-bottom:1px solid #ededed; background:#4e9cd2; height:120px;  display:inline-block;}
+
+h1{ line-height:normal}
+header h1{     font-size: 50px;  line-height:1;  margin: 15px 0 0; color:#fff;}
+section.container{ width:100%; height:500px; background:#ffffff; }
+.container_wrapper {width:100%; height:500px; background:#ffffff;  display:inline-block;}
+
+section h2{	 font-size: 35px;    margin: 5px 50px 0; color:#666; }
+section article{ width:500px; border:1px dashed #F8F6F0; float:left;margin: 35px 50px 0; }
+section article table { margin:0 50px 0;}
+section article input{ width:250px; padding:5px; height:25px; border:1px solid #ddd;  }
+section article select{ width:250px; padding:5px 10px; height:35px;}
+
+section article button , input[type="submit"]{ background:#DA662C; padding:5px 12px;  font-size: 20px; border:1px solid #D4B167;height:40px; color:#ffffff;}
+section article.addscreen{ width:1000px; margin:0 auto; }
+section article label{ color:#626262; font-size:14px;}
+
+.error_sty{ border:1px solid #D54B2F;}
+
+.hd_menu li{ float:left; display:inline-block;width:120px;text-align:center; padding:10px 5px; margin-right:30px; border:1px solid #D4B167; background:#eca832; }
+.hd_menu li.active{
+		border:1px solid #6dae3d; background:#fff; 
+}
+.hd_menu li a{text-decoration:none; color:#fff}
+.hd_menu li.active a{color:#333; }
+
+/**add screen*/
+#addname_ul, #addclient_ul{ display:inline-block }
+
+#addnameperson, #addnewclient, #addnewattachment{ float:left; display:inline; border:1px solid #1AB682; color:#1AB682; padding:2px;}
+#addname_ul li, #addclient_ul li, #addattachment_ul li{ width:300px; list-style:none;}
+#addname_ul li input, #addclient_ul li input, #addattachment_ul li input{ float:left; display:inline-block}
+.input_scrn { margin-top:4px; width:180px;}
+
+#addname_ul li span, #addclient_ul li span, #addattachment_ul li span{ float:left;display:inline-block; border:1px solid #F47857; padding:2px;  margin-top:10px;font-size:12px; }
+ #addattachment_ul li span{ float:right}
+ #addattachment_ul li{ width:320px;  display:inline-block; margin:2px }
+  .screen_data tr td, .screen_view_data tr td{padding:10px; }
+   .screen_data tr th{padding:10px; }
+ .screen_data tr:nth-child(even),  .screen_view_data td:nth-child(even){
+background: #fdfdfd;
+ 
+ }
+   .screen_data tr td a{  border:1px solid #1AB682; padding:3px; color:#1AB682; }
+   .screen_view_data { background:#ffffff; boder:1px solid #ddd;}
+   .screen_view_data tr td  label{ font-weight:bold; }
+   .viewspan {  	 font-weight:bold;		}
+   #error_display
+   {
+   color:red;
+   font-weight:bold;
+   }
+   .ui-datepicker { background:#ddd; border:1px solid #ededed; }
+   .ui-datepicker  td{ padding:5px; }
